@@ -27,6 +27,7 @@ CSCI5525_course_project
 |_____yolov3_helper.py: some helper functions to facilitate implementations
 |
 |_____checkpoint.pth.tar: the pre-stored model parameters for the trained model 
+|_____(If you cannot see it, you need to run train_yolov3.py to generate one)
 |_____(WARNING: if you re-train the model, this will be replaced with the latest model you have trained!)
 |
 |_____mAP.png: the sample mAP results from evaluation
@@ -73,3 +74,8 @@ you will probably have a different result.
 
 If you hope to see the mAP results, go to the directory "mAP", and type
 "python3 main.py -na" 
+
+Clarification
+You won't find any robotic control codes in this repo. There are only codes for model training, becuase the 
+robotic control codes are related to the intellectual properties belonging to our lab, and cannot be shared without
+proper permission. Please look at the demo videos. 
